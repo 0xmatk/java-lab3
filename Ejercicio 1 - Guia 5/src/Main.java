@@ -28,6 +28,18 @@ public class Main {
         Persona persona = new Persona(nombre, edad, sexo, peso, altura);
         System.out.println(persona);
 
+        Persona persona1 = new Persona("Matias", 21, 'H');
+        System.out.println(persona1);
+
+        Persona persona2 = new Persona();
+        persona2.setNombre("Jose");
+        persona2.setEdad(34);
+        persona2.setAltura(200);
+        persona2.setPeso(60);
+        System.out.println(persona2);
+
+
+
 
 
 

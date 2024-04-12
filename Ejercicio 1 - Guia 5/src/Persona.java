@@ -23,6 +23,7 @@ public class Persona {
         this.sexo = SEXO_POR_DEFECTO;
         this.altura = 0;
         this.peso = 0;
+        this.dni = generaDNI();
     }
 
     public Persona(String nombre, int edad, char sexo, double altura, double peso) {
@@ -38,6 +39,7 @@ public class Persona {
         this.nombre = nombre;
         this.edad = edad;
         this.sexo = sexo;
+        this.dni = generaDNI();
     }
 
     public String getNombre() {
