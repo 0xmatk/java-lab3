@@ -5,7 +5,6 @@ public class Main {
 
         Scanner teclado = new Scanner(System.in);
         String nombre;
-        char sexo;
         int edad;
         double peso;
         double altura;
@@ -17,7 +16,7 @@ public class Main {
         edad = teclado.nextInt();
 
         System.out.println("Ingrese el sexo: ");
-        sexo = teclado.nextLine().charAt(0);
+        char sexo = teclado.next().charAt(0);
 
 
         System.out.println("Ingrese peso: ");
