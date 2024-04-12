@@ -38,6 +38,24 @@ public class Main {
         persona2.setPeso(60);
         System.out.println(persona2);
 
+        int i;
+
+        i = persona.calcularIMC();
+        System.out.println(i);
+        i = persona1.calcularIMC();
+        System.out.println(i);
+        i =  persona2.calcularIMC();
+        System.out.println(i);
+
+        boolean y;
+
+        y = persona.esMayorDeEdad();
+        System.out.println(y);
+        y = persona1.esMayorDeEdad();
+        System.out.println(y);
+        y = persona2.esMayorDeEdad();
+        System.out.println(y);
+
 
 
 
